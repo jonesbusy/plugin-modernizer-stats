@@ -12,7 +12,10 @@ In short, the overall work done by plugin modernizer till now in form of UI.
 
 ## Getting Started
 
-> **Prerequisites** — [Node.js](https://nodejs.org/) >= 22 (LTS) and npm >= 10.
+### Prerequisites  
+- node.js (LTS version recommended)
+- npm (latest stable version)
+- git (for cloning repo & version control)
 
 ```bash
 # 1. Clone your fork of the repository
