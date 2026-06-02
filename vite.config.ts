@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
@@ -7,9 +7,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       onwarn(warning, defaultHandler) {
-        if (warning.code === 'COMMONJS_VARIABLE_IN_ESM') return
-        defaultHandler(warning)
+        if (warning.code === 'COMMONJS_VARIABLE_IN_ESM') return;
+        defaultHandler(warning);
       },
     },
   },
-})
+});
