@@ -26,7 +26,10 @@ cd plugin-modernizer-stats
 # 2. Install dependencies
 npm ci
 
-# 3. Start the development server
+# 3. Fetch metadata from [metadata-plugin-modernizer](https://github.com/jenkins-infra/metadata-plugin-modernizer)
+npm run fetch-metadata
+
+# 4. Start the development server
 npm run dev
 ```
 
